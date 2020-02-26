@@ -57,7 +57,7 @@ a:hover {
 
 header {
   text-align: center;
-  background: url('images/zuerich.jpg') no-repeat top center ;
+  background: url('images/switzerland.jpg') no-repeat top center ;
   background-size: cover;
   overflow: hidden;
   padding-top: 60px;
@@ -70,7 +70,7 @@ header .profile-image {
   width: 150px;
   height: 150px;
   border-radius: 50%;
-  border: 5px solid black;
+  border: 2px solid skyblue;
   transition: all .5s ease-in;
 }
 header .profile-image:hover {
@@ -104,6 +104,11 @@ header .profile-image:hover {
 
 .card-image {
   max-width: 100%;
+  display:block;
+  background:transparent;
+  padding:8px;
+  border:1px solid #ccc;
+  box-shadow:5px 5px 5px #999;
 }
 
 ul.skills {
